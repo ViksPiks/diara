@@ -1,0 +1,23 @@
+/* CATALOG STYLES */
+.catalog {
+  background-color: #05595b;
+  color: #fff;
+}
+
+.catalog .txt-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: baseline;
+  padding: 60px 0 65px 0;
+}
+
+.catalog .txt-wrapper p {
+  font-size: 48px;
+  font-weight: 700;
+  max-width: 525px;
+}
+
+.catalog .cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
