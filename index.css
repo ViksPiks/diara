@@ -466,3 +466,7 @@ section.our-blog {
 .main-header.secondary-header .main-nav {
   margin-bottom: 0;
 }
+
+.some-class {
+  color: black;
+}
