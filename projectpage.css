@@ -1,0 +1,118 @@
+/* Section 2 */
+
+.section-bg {
+  background-image: url(./assets/images/bg-p.jpg);
+  background-repeat: no-repeat;
+  padding: 100px 0 60px 0;
+}
+
+.product-page-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-page .secondary-nav {
+  color: rgba(245, 245, 245, 0.5);
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  align-items: baseline;
+}
+
+.product-page .secondary-nav li:last-child {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.product-page .location {
+  color: #f5f5f5;
+  display: flex;
+  gap: 10px;
+}
+/* Section 3 */
+
+.project-article .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.project-article h1 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.project-article p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 136%;
+  padding-bottom: 50px;
+}
+
+/*  */
+
+.bio-card .bio {
+  width: 390px;
+  border: 1px solid #e9e9e9;
+}
+
+.bio .avatar {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.bio h2 {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+.bio h4 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.bio p {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 50px;
+  max-width: 330px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*  */
+.table {
+  background: rgba(196, 196, 196, 0.25);
+  max-width: 390px;
+  display: block;
+  padding: 30px;
+}
+
+.table th {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+td {
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 5px;
+  border-width: 2px;
+
+  border-bottom: dotted;
+}

@@ -1,0 +1,56 @@
+.about-diara {
+  background-color: #05595b;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+/*  */
+
+.pokpok {
+  display: flex;
+  gap: 30px;
+}
+
+article p {
+  padding-bottom: 30px;
+  color: #062c30;
+  font-size: 18px;
+  line-height: 136%;
+}
+
+article p:last-child {
+  padding-bottom: 60px;
+}
+
+article iframe {
+  padding-bottom: 30px;
+}
+
+article img {
+  padding-bottom: 30px;
+}
+
+/*  */
+
+.navigation {
+  max-width: 495px;
+  height: 274px;
+  background-color: rgba(196, 196, 196, 0.25);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.navigation .page {
+  background: rgba(5, 89, 91, 0.25);
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 18px;
+  width: 475px;
+  padding: 19px 0 19px 30px;
+}
+
+.page:hover {
+  background-color: #05595b;
+  transition: background-color 0.3s;
+}

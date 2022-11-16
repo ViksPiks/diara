@@ -1,0 +1,65 @@
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.blog-cards .card {
+  box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 20px 0px;
+}
+
+.blog-cards .card .description-wraper {
+  padding: 0 30px 60px 30px;
+}
+
+.card h2 {
+  color: #062c30;
+  font-weight: 500;
+  font-size: 26px;
+  padding-bottom: 26px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 136%;
+}
+
+.card .read-more-btn {
+  display: inline-block;
+  background: #05595b;
+  padding: 24px 125px;
+  border-radius: 0px 0px 20px 0px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*  */
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.pagination .pagination-btn a {
+  background: rgba(5, 89, 91, 0.5);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+}
+
+.pagination .pagination-btn a:hover {
+  background-color: #05595b;
+  transition: all 0.2s;
+}

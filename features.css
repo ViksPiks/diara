@@ -1,0 +1,54 @@
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
+  padding-bottom: 60px;
+}
+
+.feature-cards .feature-card {
+  box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-card .description {
+  padding: 30px 45px 150px 30px;
+}
+
+.feature-card .description h2 {
+  font-weight: 500;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #062c30;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.feature-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 136%;
+  text-align: left;
+}
+
+/*  */
+.call {
+  background: #c4c4c4;
+  text-align: center;
+}
+
+.call .post h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.call form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 37px;
+  gap: 10px;
+}
