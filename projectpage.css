@@ -3,6 +3,7 @@
 .section-bg {
   background-image: url(./assets/images/bg-p.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px 0 60px 0;
 }
 
@@ -42,6 +43,14 @@
   font-size: 36px;
   text-align: center;
   padding-bottom: 60px;
+}
+
+.project-article img {
+  margin-bottom: 50px;
+}
+
+.project-article img:last-of-type {
+  margin-bottom: 70px;
 }
 
 .project-article p {

@@ -175,7 +175,7 @@ section.best-works {
   line-height: 100%;
   display: flex;
   gap: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
 }
 
 .cards-list .card .description h3 {
@@ -193,6 +193,7 @@ section.best-works {
   display: inline-block;
   background-color: #05595b;
   color: #ffffff;
+  font-size: 16px;
   border-radius: 0px 0px 20px 0px;
   padding: 20px 40px;
 }
@@ -247,6 +248,7 @@ section.about-us .skills-list {
   display: inline-block;
   background-color: #05595b;
   color: #ffffff;
+  font-size: 16px;
   border-radius: 0px 0px 20px 0px;
   padding: 10px 40px;
   white-space: nowrap;
@@ -308,7 +310,6 @@ section.our-blog {
 
 .card img {
   border-radius: 0px 0px 20px 0px;
-  margin-bottom: 20px;
 }
 
 .card .description {
@@ -317,11 +318,11 @@ section.our-blog {
 
 .card span {
   color: #05595b;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
   display: block;
 }
 
-.card h3 {
+.card .description h3 {
   font-weight: 500;
   font-size: 26px;
   color: #062c30;
