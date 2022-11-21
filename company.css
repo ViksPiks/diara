@@ -1,7 +1,31 @@
 .about-diara {
   background-color: #05595b;
-  color: #fff;
+  padding: 60px 0 49px 0;
   margin-bottom: 64px;
+}
+
+.content-wrapper {
+  color: #fff;
+}
+
+.content-wrapper .wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 125px;
+}
+
+.content-wrapper span {
+  display: block;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 47px;
+}
+
+.content-wrapper p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 136%;
+  max-width: 903px;
 }
 
 /*  */
