@@ -11,19 +11,26 @@
 }
 
 .blog-cards .card .description-wraper {
-  padding: 0 30px 60px 30px;
+  padding: 20px 30px 63px 30px;
+}
+
+.card span {
+  margin-bottom: 19px;
+  display: block;
+  color: #05595b;
+  font-size: 14px;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 .card h2 {
   color: #062c30;
   font-weight: 500;
   font-size: 26px;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .card p {
   font-weight: 400;
-  font-size: 17px;
   line-height: 136%;
 }
 
@@ -40,6 +47,7 @@
 }
 
 /*  */
+
 .pagination {
   display: flex;
   gap: 10px;
