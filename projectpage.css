@@ -1,9 +1,7 @@
 /* Section 2 */
 
-.section-bg {
-  background-image: url(./assets/images/bg-p.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+section.product-page {
+  background-color: #05595b;
   padding: 100px 0 60px 0;
 }
 
