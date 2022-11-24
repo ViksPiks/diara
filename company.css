@@ -10,8 +10,8 @@
 
 .content-wrapper .wrapper {
   display: flex;
-  align-items: baseline;
-  gap: 125px;
+  align-items: flex-start;
+  gap: 75px;
 }
 
 .content-wrapper span {
