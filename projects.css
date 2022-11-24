@@ -15,7 +15,7 @@
   min-height: 337px;
   display: flex;
   gap: 30px;
-  align-items: baseline;
+  align-items: flex-start;
   padding: 60px 0 65px 0;
 }
 
