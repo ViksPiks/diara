@@ -18,7 +18,7 @@
 
 .blog-txt-wrapper {
   display: flex;
-  gap: 124px;
+  gap: 75px;
   align-items: flex-start;
   padding: 60px 0 105px 0;
 }
