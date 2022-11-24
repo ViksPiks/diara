@@ -5,10 +5,8 @@
   padding-bottom: 60px;
 }
 
-.catalog-bg {
-  background-image: url("./assets/images/bg-p.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+.catalog-bg .background {
+  background-color: #05595b;
 }
 
 .catalog .txt-wrapper {
