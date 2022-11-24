@@ -64,7 +64,9 @@
 
 .bio-card .bio {
   width: 390px;
-  border: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
 }
 
 .bio .avatar {
@@ -100,28 +102,31 @@
   margin: 0 auto;
 }
 
-/*  */
-.table {
+.info {
   background: rgba(196, 196, 196, 0.25);
-  max-width: 390px;
-  display: block;
   padding: 30px;
 }
 
-.table th {
+.info h3 {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-td {
+.info table {
+  width: 100%;
+}
+
+.info table td {
   font-weight: 700;
   font-size: 15px;
   text-align: left;
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 5px;
-  border-width: 2px;
+}
 
-  border-bottom: dotted;
+.info table td:last-child {
+  text-align: right;
 }
