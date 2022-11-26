@@ -4,9 +4,9 @@
 
 .main-header .main-nav {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
 }
 
 .main-header .main-nav .logo {
@@ -64,4 +64,34 @@
 
 .main-nav .media ul li a {
   display: flex;
+}
+
+@media (max-width: 950px) {
+  .main-header .main-nav .logo div {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .main-nav .menu ul {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 740px) {
+  .main-header .main-nav {
+    justify-content: center;
+  }
+  .main-nav .media {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-header .main-nav {
+    justify-content: start;
+  }
+  .main-nav .menu ul {
+    display: none;
+  }
 }
