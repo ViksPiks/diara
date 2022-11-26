@@ -11,9 +11,30 @@
 
 .main-header .main-nav .logo {
   display: flex;
-  max-width: 180px;
+  align-items: center;
+  gap: 10px;
   padding-top: 21px;
   padding-bottom: 21px;
+  color: #f5f5f5;
+}
+
+.main-header .main-nav .logo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header .main-nav .logo div h1 {
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.51em;
+  text-transform: uppercase;
+}
+
+.main-header .main-nav .logo div span {
+  font-weight: 400;
+  font-size: 12px;
+  max-width: 70px;
 }
 
 .main-nav .menu ul {
