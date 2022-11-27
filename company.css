@@ -87,3 +87,40 @@ article img {
   background-color: #05595b;
   transition: background-color 0.3s;
 }
+
+@media (max-width: 890px) {
+  .content-wrapper span {
+    font-size: 38px;
+  }
+  .content-wrapper .wrapper {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 690px) {
+  .content-wrapper .wrapper {
+    display: block;
+  }
+}
+
+@media (max-width: 660px) {
+  .about-diara {
+    margin-bottom: 30px;
+  }
+  .our-story {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .navigation {
+    margin: 0 auto;
+  }
+  .navigation li a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper span {
+    font-size: 28px;
+  }
+}
